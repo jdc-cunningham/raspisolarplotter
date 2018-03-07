@@ -1,6 +1,8 @@
 # raspisolarplotter
 A basic raspberry pi solar plotter uploader and display on a remote server
 
+![GIF of Raspi Solar Plotter Day Pagination](https://raw.githubusercontent.com/jdc-cunningham/raspisolarplotter/master/raspisolarplotter-cycling-days.gif)
+
 ## The website
 http://raspisolarplotter.com
 
