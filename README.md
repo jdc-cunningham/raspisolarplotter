@@ -47,7 +47,7 @@ The dual panel version has two copies of data, one from each panel.
 
 Initially I started with a single panel but decided to use two of them to compare/get data points from the left side of my window vs. the right side of my window relative to the path of the sun's arc as it moves across the sky. I don't know what I ever did with that data (which days it was) as currently (for a long time) both panels are positioned next to each other as shown in the photo.
 
-There is a config component as well that depends on your preference eg. if you decide to use a 3.3V referenceo r 5V reference which will change your multiplier constant (voltage reference/steps) eg. 3.3V/1024 or 5V/1024.
+There is a config component as well that depends on your preference eg. if you decide to use a 3.3V reference or 5V reference which will change your multiplier constant (voltage reference/steps) eg. 3.3V/1024 or 5V/1024.
 
 ## Public API
 
