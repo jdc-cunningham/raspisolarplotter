@@ -1,0 +1,21 @@
+@media screen and (max-width: 800px) {
+    #mcg-text, #mclm-text {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #mcg-text, #mclm-text {
+        font-size: 14px;
+    }
+    #rData-text {
+        font-size: 16px;
+    }
+    #mc-raw-data {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #mcg-text, #mclm-text {
+        font-size: 12px;
+    }
+}

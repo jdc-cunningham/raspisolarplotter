@@ -1,0 +1,94 @@
+.flex {
+    display: flex;
+}
+    .f-c-c {
+        align-items:  center;
+        justify-content: center;
+    }
+    .f-c-t {
+        align-items: center;
+        justify-content: top;
+    }
+    .f-t-c {
+        align-items: top;
+        justify-content: center;
+    }
+    .f-d-r {
+        flex-direction: row;
+    }
+    .f-d-c {
+        flex-direction: column;
+    }
+
+#main-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2279D0;
+}
+    #mc-greeting {
+        position: relative;
+        width: auto;
+        padding: 10px 0;
+    }
+        #mcg-text {
+            font-size: 24px;
+            color: white;
+        }
+    #mc-loading-msg {
+        position: relative;
+        width: auto;
+        height: auto;
+        padding: 10px 0;
+    }
+        #mclm-text {
+            font-size: 24px;
+            color: white;
+        }
+    #mc-raw-data {
+        position: relative;
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+        height: 300px;
+        overflow-y: auto;
+        color: white;
+    }
+        #rData-text {
+            font-size: 24px;
+        }
+
+/* chart mod */
+/* axis style */
+.c3 .c3-axis-x path, .c3 .c3-axis-x line, .c3 .c3-axis-x g, .c3 .c3-legend-item-data text {
+    stroke: white;     
+} 
+.c3 .c3-axis-y path, .c3 .c3-axis-y line, .c3 .c3-axis-y g, .c3 .c3-legend-item-data text {
+    stroke: white;     
+} 
+
+/* left right arrows */
+.nav-arrow {
+    position: absolute;
+    top: 10px;
+    width: 24px;
+    height: 24px;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: monospace;
+}
+.nav-arrow:hover {
+    background-color: white;
+    color: #2279D0;
+}
+#left-arrow {
+    left: 10px;
+}
+#right-arrow {
+    right: 10px;
+}
