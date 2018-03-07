@@ -30,9 +30,9 @@ cur_date_day = cur_date.strftime('%A')
 key = ''
 
 # get analog value and calculate based on 5V multiplier
-multiplier = 0;
-reference = 5;
-steps = 1024;
+multiplier = 0
+reference = 5
+steps = 1024
 
 analog_val = mcp.read_adc(0)
 
